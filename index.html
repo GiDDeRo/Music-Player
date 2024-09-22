@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="main-container">
+        <nav>
+            <div>
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <img src="./468-thumbnail.png">
+        <h1>Despacito</h1>
+        <p>Luis Fonsi ft Puerto Rican</p>
+        <audio id="song">
+            <source src="./🎵 Go! - NEFFEX 🎧 No Copyright Music 🎶 YouTube Audio Library.mp3" type="audio/mp3">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div id="controls">
+            <div id="backward">
+                <i class="fas fa-backward"></i>
+            </div>
+            <div id="play_pause">
+                <i class="fas fa-play"></i>
+            </div>
+            <div id="forward">
+                <i class="fas fa-forward"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="" id="p-link">Coded by Gideon</a>
+        <a href="https://github.com/GiDDeRo"><i class="fab fa-github github fa-2x"></i></a>
+        <a href="https://twitter.com/giddero_xoxo" id="twitter" target="_blank"><img src="./x.svg"></a>
+        <a href="https://api.whatsapp.com/send?phone=2349037429857" target="_blank"><i class="fab fa-whatsapp whatsapp"></i></a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
